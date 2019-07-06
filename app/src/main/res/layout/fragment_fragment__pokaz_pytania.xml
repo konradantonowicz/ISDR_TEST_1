@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000"
+    >
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragment_Pokaz_pytania"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_nr_pytan_tresc_pytania"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_odpa"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+        android:layout_below="@id/id_nr_pytan_tresc_pytania"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_odpb"
+        android:layout_below="@id/id_tv_odpa"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_odpc"
+        android:layout_below="@id/id_tv_odpb"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="10sp"
+
+        />
+
+</RelativeLayout>
+
+    </ScrollView>

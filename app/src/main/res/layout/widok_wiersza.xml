@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <TextView
+        android:layout_width="49sp"
+        android:layout_height="49sp"
+        android:textSize="0sp"
+        android:id="@+id/id_wiersza_zaz"
+
+
+        />
+
+    <TextView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:id="@+id/id_wiersza"
+        android:gravity="center"
+        android:background="@drawable/values"
+        android:layout_marginBottom="4sp"
+        />
+
+
+
+
+</RelativeLayout>
